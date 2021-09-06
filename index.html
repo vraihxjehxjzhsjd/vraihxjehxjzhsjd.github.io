@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <title>root@vrisppy</title>
+    <meta property="og:site_name" content="vrisppy xd">
+    <meta property="og:title" content="Персональная визитка vrisppy, содержащая в себе ссылки для связи со мной">
+    <meta name="theme-color" content="#E338AD">
+	<meta property="og:site_name" content="vrisppy xd">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@vrisppy">
+	<meta name="twitter:creator" content="@vrisppy">
+	<meta name="twitter:title" content="Персональная визитка vrisppy">
+	<meta name="twitter:description" content="Содержащая в себе ссылки для связи со мной">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="/assets/images/logo.png"/>
+    <style>
+        body {
+            font-family: 'Lato', sans-serif;
+            font-size: 20px;
+            margin: 1em;
+        }
+    </style>
+</head>
+
+<body style="background: #300A24; color: #FFFFFF;">
+    <span>root@vrisppy:~# </span><span style="white-space:pre;" id="type"></span>
+    <h3 style="margin-top: 46vh; text-align: center;"><span id="animated"></span></h3>
+</body>
+<script>
+    function is_shit() {
+        if (/MSIE/i.test(navigator.userAgent)) return true
+        if (/firefox/i.test(navigator.userAgent)) return true
+        if (/Trident/i.test(navigator.userAgent)) return true
+        if (/Edge/i.test(navigator.userAgent)) return true
+        return false
+    }
+    if (is_shit()) {
+        alert("ПОСТАВЬ ХРОМ ЕБЛАН")
+        window.open('https://www.google.com/intl/ru/chrome/', '_blank');
+    }
+</script>
+<script>
+    $.ajax({
+        url: "https://api.ipify.org", success: function (result) {
+            new Typed('#type', {
+                strings: ['cd ~/vrisppy/^1000\n` root@d3pl0yx:~/vrisppy# hostname --ip-addresses`^1000\n` Scanning ' + result + '...`^6000\n` Access is allowed!`\n` Rick rolling...`^1000'],
+                typeSpeed: 60,
+                backSpeed: 0,
+                cursorChar: '❚',
+                loop: false,
+                onComplete: function (self) { (location.href = "/main/") }
+            })
+        }
+    });
+
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+</html>
