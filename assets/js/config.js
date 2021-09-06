@@ -1,7 +1,7 @@
 let config = {
   preloaderDelay: 1,
   showDelay: 1, 
-  title: 'd3pl0yx',
+  title: 'vrisppy',
   social: {
     telegram: 'D3pl0yX',
     youtube: 'UCa9tLAc7Fp8nB7hNk2oXvgQ',
